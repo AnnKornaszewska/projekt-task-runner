@@ -10,15 +10,21 @@ html {
   *::after {
     box-sizing: inherit;
   }
+  
+  body {
+    margin: 0;
+    text-align: center;
+  }
 
 //   Navigation
 
   .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    background-image:url('https://i.postimg.cc/WzYFBwDw/pexels-masood-aslami-18323831.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
   }
 
   .row {
@@ -26,23 +32,29 @@ html {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
     width: 100%;
     justify-content: space-around;
+    position: absolute;
   }
 
 .navigation li {
+    padding-right: 50px;
     display: inline-block;
 }
 
-.col-7 .navbar-nav .nav-item a {
-    padding-right: 50px;
+.navigation li a {
+  color: white;
+  font-size: 13px;
+}
+
+.navigation .navbar-nav {
+  margin-top: 55px;
 }
 
 .navbar-nav .nav-item a {
-    font-family: 'Open Sans', sans-serif;
-    list-style: none;
-    text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 .col-5 .navbar-nav .nav-item a {
@@ -51,4 +63,41 @@ html {
     color:gold; 
 }
 
+.subtitle {
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
 
+.title {
+  font-family: 'Crete Round', serif;
+  color: white;
+  font-size: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-color: gold;
+  border-color: gold;
+  background-position: 100% 0;
+  background-size: 300%;
+  font-family: 'Crete Round', serif;
+  margin: 0;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+}
