@@ -35,30 +35,30 @@ html {
   justify-content: space-around;
 }
 
-.navigation li {
-    padding-right: 50px;
-    display: inline-block;
-}
-
-.navigation li a {
-  color: white;
-  font-size: 13px;
-}
-
-.navigation .navbar-nav {
-  margin-top: 55px;
-}
-
-.navbar-nav .nav-item a {
-  font-family: 'Open Sans', sans-serif;
-  list-style: none;
-  text-decoration: none;
-}
-
-.col-5 .navbar-nav .nav-item a {
+.col-5 a {
     font-family: 'Dancing Script', cursive;
     font-size: 27px;
     color:gold; 
+    text-decoration: none;
+}
+
+.col-5 {
+  padding-top: 30px;
+}
+
+.col-7 .navbar-nav .nav-item {
+  display: inline-block;
+  font-family: 'Dancing Script', cursive;
+  font-size: 14px;
+  list-style: none;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.col-7 .navbar-nav .nav-item a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 .subtitle {
@@ -66,6 +66,7 @@ html {
   font-size: 50px;
   color: white;
   margin-bottom: 20px;
+  padding-top: 90px;
 }
 
 .title {
@@ -74,6 +75,7 @@ html {
   font-size: 80px;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .button {
@@ -99,3 +101,7 @@ html {
   text-decoration: none;
   color: white;
 }
+
+
+
+
