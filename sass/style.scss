@@ -102,6 +102,46 @@ html {
   color: white;
 }
 
+// Services
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 0 0 33.333%;
+}
+
+.box-one {
+  padding: 0 20px 0 170px;
+}
+.box-two {
+  padding: 0 65px;
+}
+
+.box-three {
+  padding-right: 170px;
+  padding-left: 20px;
+}
 
 
 
+.main-title {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+}
+
+.services p {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-size: 17px;
+}
+
+.col {
+
+}
