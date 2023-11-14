@@ -42,7 +42,6 @@ body {
 
 .col-7 .navbar-nav .nav-item {
   display: inline-block;
-  font-family: "Dancing Script", cursive;
   font-size: 14px;
   list-style: none;
   padding-right: 50px;
@@ -106,6 +105,10 @@ body {
   flex: 0 0 33.333%;
 }
 
+i {
+  font-size: 45px;
+}
+
 .box-one {
   padding: 0 20px 0 170px;
 }
@@ -131,4 +134,8 @@ body {
   margin-top: 0;
   margin-bottom: 60px;
   font-size: 17px;
+}
+
+.col {
+  font-family: "Open Sans", sans-serif;
 }/*# sourceMappingURL=style.css.map */

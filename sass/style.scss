@@ -48,7 +48,6 @@ html {
 
 .col-7 .navbar-nav .nav-item {
   display: inline-block;
-  font-family: 'Dancing Script', cursive;
   font-size: 14px;
   list-style: none;
   padding-right: 50px;
@@ -114,6 +113,10 @@ html {
   flex: 0 0 33.333%;
 }
 
+ i {
+  font-size: 45px;
+}
+
 .box-one {
   padding: 0 20px 0 170px;
 }
@@ -125,6 +128,8 @@ html {
   padding-right: 170px;
   padding-left: 20px;
 }
+
+
 
 
 
@@ -143,5 +148,5 @@ html {
 }
 
 .col {
-
+  font-family: 'Open Sans', sans-serif;
 }
