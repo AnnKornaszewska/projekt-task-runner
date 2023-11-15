@@ -23,7 +23,6 @@ html {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
 }
 
 .row {
@@ -65,7 +64,7 @@ html {
   font-size: 50px;
   color: white;
   margin-bottom: 20px;
-  padding-top: 90px;
+  padding-top: 35px;
 }
 
 .title {
@@ -109,28 +108,18 @@ html {
 
 .col-box {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .box {
-  flex: 0 0 33.333%;
+    flex: 0 0 33.333%;
+    position: relative;
+    padding: 0 30px;
 }
 
- i {
+i {
   font-size: 45px;
-}
-
-.box-one {
-  padding: 0 20px 0 170px;
-}
-.box-two {
-  padding: 0 65px;
-}
-
-.box-three {
-  padding-right: 170px;
-  padding-left: 20px;
 }
 
 .main-title {
@@ -203,7 +192,8 @@ html {
   display: flex;
   justify-content: left;
   position:absolute;
-  padding-left: 250px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .col-footer p i {
@@ -213,4 +203,41 @@ html {
 .col-list ul li {
   display: inline-block;
 }
+
+// Media 
+
+@media (max-width: 767px) {
+
+  .row-card {
+  flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+
+  .row {
+  flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+
+  .col-footer {
+  display: block;
+  position: relative;
+  
+  
+    }
+}
+
+@media (max-width: 767px) {
+
+  .col-list {
+  display: block;
+  text-align: center;
+  
+    }
+}
+
+
 
