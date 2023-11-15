@@ -103,7 +103,11 @@ html {
 
 // Services
 
-.col {
+.services {
+  margin-bottom: 80px;
+}
+
+.col-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -129,18 +133,14 @@ html {
   padding-left: 20px;
 }
 
-
-
-
-
 .main-title {
-  margin-top: 100px;
+  padding-top: 70px;
   margin-bottom: 0;
   font-family: 'Kalam', cursive;
   font-size: 50px;
 }
 
-.services p {
+.section-main p {
   font-style: italic;
   margin-top: 0;
   margin-bottom: 60px;
@@ -150,3 +150,47 @@ html {
 .col {
   font-family: 'Open Sans', sans-serif;
 }
+
+// Portfolio
+
+.row-card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:center;
+}
+
+.col {
+  background: #f0f0f0;
+  padding: 20px 20px; 
+}
+
+.card img {
+  width: 100%; 
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: white;
+  padding: 10px;
+}
+
+.row-card img {
+  display: block;
+}
+
+.card-body h5 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.card-body p {
+  font-style: italic;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+

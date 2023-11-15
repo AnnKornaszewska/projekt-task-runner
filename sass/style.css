@@ -95,7 +95,11 @@ body {
   color: white;
 }
 
-.col {
+.services {
+  margin-bottom: 80px;
+}
+
+.col-box {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -123,13 +127,13 @@ i {
 }
 
 .main-title {
-  margin-top: 100px;
+  padding-top: 70px;
   margin-bottom: 0;
   font-family: "Kalam", cursive;
   font-size: 50px;
 }
 
-.services p {
+.section-main p {
   font-style: italic;
   margin-top: 0;
   margin-bottom: 60px;
@@ -138,4 +142,43 @@ i {
 
 .col {
   font-family: "Open Sans", sans-serif;
+}
+
+.row-card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.col {
+  background: #f0f0f0;
+  padding: 20px 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body {
+  background-color: white;
+  padding: 10px;
+}
+
+.row-card img {
+  display: block;
+}
+
+.card-body h5 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.card-body p {
+  font-style: italic;
+  margin-top: 0;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
