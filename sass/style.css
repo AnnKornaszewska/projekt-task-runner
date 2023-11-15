@@ -127,7 +127,7 @@ i {
 }
 
 .main-title {
-  padding-top: 70px;
+  padding-top: 30px;
   margin-bottom: 0;
   font-family: "Kalam", cursive;
   font-size: 50px;
@@ -155,15 +155,16 @@ i {
   padding: 20px 20px;
 }
 
-.card-image img {
+.card img {
   -o-object-fit: cover;
      object-fit: cover;
-  max-width: 250px;
-  height: 100%;
+  width: 100%;
+  height: 300px;
 }
 
 .card-body {
   background-color: white;
+  padding: 10px;
 }
 
 .row-card img {
