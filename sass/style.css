@@ -87,9 +87,6 @@ body {
   background-size: 300%;
   font-family: "Crete Round", serif;
   margin: 0;
-}
-
-.button a {
   text-decoration: none;
   color: white;
 }
@@ -121,6 +118,10 @@ i {
   font-size: 50px;
 }
 
+.fa-solid {
+  color: #fcff38;
+}
+
 .section-main p {
   font-style: italic;
   margin-top: 0;
@@ -136,6 +137,10 @@ i {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.row-card .col {
+  width: 33.33%
 }
 
 .col {
@@ -183,6 +188,10 @@ i {
   padding-left: 20px;
 }
 
+.fa-brands {
+  color: #454545;
+}
+
 .col-footer p i {
   font-size: 15px;
 }
@@ -191,11 +200,56 @@ i {
   display: inline-block;
 }
 
+.col-list ul a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .col-7 ul li a{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-box .box .box-one {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-box .box .box-two{
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-box .box .box-three {
+    width: 100%;
+    display: block;
+  }
+}
+
 @media (max-width: 767px) {
   .row-card {
     flex-direction: column;
   }
 }
+
+@media (max-width: 767px) {
+  .row-card .col {
+    width: 100%
+  }
+}
+
+@media (max-width: 767px) {
+  .row-card .col {
+    width: 100%
+  }
+}
+
 @media (max-width: 767px) {
   .row {
     flex-direction: column;
@@ -207,9 +261,5 @@ i {
     position: relative;
   }
 }
-@media (max-width: 767px) {
-  .col-list {
-    display: block;
-    text-align: center;
-  }
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+
